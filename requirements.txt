@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-tensorflow==2.13.0
+tensorflow==2.11.0
 joblib
 plotly
 Pillow
