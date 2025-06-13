@@ -157,4 +157,4 @@ if st.session_state.prediction_data is not None:
     st.plotly_chart(fig4, use_container_width=True)
 
 
-# streamlit run app1.py
+# streamlit run app_betty.py
