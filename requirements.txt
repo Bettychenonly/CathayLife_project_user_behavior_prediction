@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-tensorflow>=2.15.0
+tensorflow-cpu==2.15.1
 scikit-learn
 joblib
 plotly
