@@ -1,8 +1,8 @@
+[server]
+pythonVersion = "3.10"
 [theme]
 primaryColor="#4FC08D"
 backgroundColor="#FFFFFF"
 secondaryBackgroundColor="#F0F2F6"
 textColor="#31333F"
 font="sans serif"
-[server]
-pythonVersion = "3.10"
