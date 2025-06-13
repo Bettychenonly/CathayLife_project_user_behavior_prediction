@@ -41,7 +41,7 @@ def get_base64_image(path):
     return f"data:image/png;base64,{encoded}"
 
 # 修改為相對路徑
-image_path = "image.png"
+image_path = "logo.png"
 img_base64 = get_base64_image(image_path)
 
 st.set_page_config(page_title="國泰人壽 - 用戶行為預測工具", layout="centered", initial_sidebar_state="collapsed")
@@ -295,4 +295,4 @@ if st.session_state.prediction_data is not None:
     st.plotly_chart(fig_pie, use_container_width=True)
 
 
-# streamlit run app1.py
+# streamlit run app.py
